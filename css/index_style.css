@@ -21,3 +21,7 @@ header{
 #portfolio {
 	background-color: lightBlue;
 }
+
+form label {
+	margin-left: 13px;
+}

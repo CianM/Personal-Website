@@ -11,6 +11,30 @@
 	</head>
 	<body>
 		
+		
+		<?php
+			// grab recaptcha library
+			require_once "recaptchalib.php";
+			
+			// your secret key
+			$secret = "6Lfw9g0TAAAAAPE1QXkUCkdogmXP3ZKFvmFo-4-i";
+ 
+			// empty response
+			$response = null;
+ 
+			// check secret key
+			$reCaptcha = new ReCaptcha($secret);
+			
+			// if submitted check response
+			if ($_POST["g-recaptcha-response"]) {
+				$response = $reCaptcha->verifyResponse(
+					$_SERVER["REMOTE_ADDR"],
+					$_POST["g-recaptcha-response"]
+				);
+			} 
+		?>
+		
+		
 		<nav class="navbar navbar-default navbar-inverse">
 		  <div class="container-fluid">
 			<div class="navbar-header">
@@ -236,14 +260,83 @@
 		
 		<!-- Portfolio ========== -->
 		<section id="portfolio" class="container-fluid">
-			<div class="col-xs-12 text-center">
-				<h2>Portfolio</h2>
-			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h2>Portfolio</h2>
+				</div><!-- /col -->
+			</div><!-- /row -->
 		</section><!-- /portfolio -->
 		
 		<!-- Contact ======== -->
-		<section>
+		<section class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h2>Contact</h2>
+				</div><!-- /col -->
+			</div><!-- /row -->
+			
+			<div class="row">
+				<div class="col-xs-12">
+				
+					<?php
+						$me = "cian@cianmackle.com";
+						$feedbackmail = "contact@cianmackle.com";
+
+						if ( isset($_POST['submit'] ))
+						{
+								$name = $_POST['name'];
+								$email = $_POST['email'];
+								$subject = $_POST['subject'];
+								$message = $_POST['message'];
+								
+								$headers = "From: $feedbackmail" . "\r\n" . "Reply-To: $email" . "\r\n";
+								$details = "Name: $name" . "\r\n" . "Email: $email" . "\r\n" . "Subject: $subject" . "\r\n" . "\r\n" . $message;
+								
+								
+								$a = mail( $me, $subject, $details, $headers );
+								if ($a) 
+								{
+									 print("Message was sent, you can send another one");
+								} else {
+									 print("Message wasn't sent, please check that you have changed emails in the bottom");
+								}
+						}
+					?>
+						
+					
+					<form method="POST" action="index.php">
+						<div class="form-group">
+							<label for="form_name">Name</label>
+							<input type="text" class="form-control" id="form_name" placeholder="Name" name="name" require>
+						</div>
+						
+						<div class="form-group">
+							<label for="form_email">Email</label>
+							<input type="email" class="form-control" id="form_email" placeholder="Email" name="email" required>
+						</div>
+						
+						<div class="form-group">
+							<label for="form_subject">Subject</label>
+							<input type="text" class="form-control" id="form_subject" placeholder="Subject" name="subject" required>
+						</div>
+						
+						<div class="form-group">
+							<label for="form_text">Message</label>
+							<textarea class="form-control" rows="5" id="form_message" placeholder="Message" name="message"></textarea>
+						</div>
+						
+						<!-- reCAPTCHA ========== -->
+						<div class="g-recaptcha pull-right" data-sitekey="6Lfw9g0TAAAAAMIDJc2LRkK0DY5WZPsPHPUuYrQX"></div> 
+						
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary pull-right" name="submit">Submit</button>
+						</div>
+					</form>
+					
+				</div><!-- /col -->
+			</div><!-- /row -->
 		</section><!-- /contact -->
+		
 		
 		<footer>
 		</footer>
@@ -251,5 +344,7 @@
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<!-- reCAPTCHA ========== -->
+		<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>  
 	</body>
 </html>
