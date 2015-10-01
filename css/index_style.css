@@ -1,0 +1,24 @@
+.contact_images {
+	height: 50px;
+	width: 50px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+header{
+	padding-top: 20px;
+	background-color: lightBlue;
+}
+
+#me{
+	height: 75%;
+	width: 75%;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+#name{
+	font-weight: bold;
+}

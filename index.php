@@ -33,7 +33,60 @@
 		</nav>
 	
 	
+		<!-- Intro ========== -->
+		<header class="container-fluid">
+			<div class="row">
+				<!-- Me ========== -->
+				<div class="col-md-4 col-xs-12 text-center">
+					<div class="jumbotron">
+						<img id="me" src="images/me.jpg" class="img-responsive center-block" alt="Me">
+						<p id="name">Cian<br>Mackle</p>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="mailto:cian@cianmackle.com">
+									<img src="images/gmail.svg" class="img-responsive contact_images" alt="Email">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="#">
+									<img src="images/linkedin.svg" class="img-responsive contact_images" alt="LinkedIn">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="#">
+									<img src="images/github.svg" class="img-responsive contact_images" alt="Github">
+								</a>
+							</div>
+						</div><!-- /row -->  
+					</div>
+				</div><!-- /col -->
+				
+				<!-- About Me ========== -->
+				<div class="col-md-8 col-xs-12">
+					<div class="jumbotron">
+						<p>
+							Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia?
+							De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+						</p>
+					</div><!-- /jumbotron -->
+				</div><!-- /col -->
+			</div><!-- /row -->
+		</header>
 		
+		<!-- About ========== -->
+		<section>
+		</section><!-- /about -->
+		
+		<!-- Portfolio ========== -->
+		<section>
+		</section><!-- /portfolio -->
+		
+		<!-- Contact ======== -->
+		<section>
+		</section><!-- /contact -->
+		
+		<footer>
+		</footer>
 		
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
