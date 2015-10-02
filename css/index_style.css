@@ -12,6 +12,10 @@ h2 {
     box-shadow: none;
 }
 
+#form_button {
+	margin-top: 10px;
+}
+
 label {
 	font-family: "Open Sans", sans-serif;
 }
@@ -20,7 +24,10 @@ label {
 	color: #DADADA;
 }
 
-
+.project {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
 /* Fonts */
 .lobster{ 
@@ -58,5 +65,6 @@ form label {
 }
 
 footer {
+	margin-top: 20px;
 	background-color: #222222;
 }

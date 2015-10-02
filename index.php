@@ -287,6 +287,19 @@
 					<h2>Portfolio</h2>
 				</div><!-- /col -->
 			</div><!-- /row -->
+			
+			<div class="row">
+				<div class="col-xs-12 project">
+					<a href="#">
+						<img src="images/portfolio/micro_vision.png" id="micro_vision" class="img-responsive" alt="Micro-Vision">
+					</a>
+				</div>
+				<div class="col-xs-12 project">
+					<a href="#">
+						<img src="images/portfolio/constructed_languages.png" id="constructed_languages" class="img-responsive" alt="Constructed Languages">
+					</a>
+				</div>
+			</div>
 		</section><!-- /portfolio -->
 		
 		<!-- Contact ======== -->
@@ -353,7 +366,7 @@
 						</div>
 						
 						<div class="form-group">
-							<button type="submit" class="btn btn-primary pull-right" name="submit">Submit</button>
+							<button id="form_button" type="submit" class="btn btn-primary pull-right" name="submit">Submit</button>
 						</div>
 					</form>
 					
@@ -380,6 +393,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<!-- reCAPTCHA ========== -->
-		<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>  
+		<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
 	</body>
 </html>
