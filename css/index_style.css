@@ -4,6 +4,16 @@
 
 h2 {
 	font-family: "Lobster", cursive;
+	font-size: 3em;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+label {
+	font-family: "Open Sans", sans-serif;
 }
 
 #brand_name {

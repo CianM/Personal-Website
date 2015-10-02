@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Cian Mackle | Web Developer</title>
+		<title>Cian Mackle | Front-End Web Developer</title>
 		<!-- <meta name="description" content="">
 		<meta name="keywords" content="">
 		<link rel="icon" href="" type="image/png"> -->
@@ -51,9 +51,9 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			  <ul class="nav navbar-nav navbar-right text-center open_sans">
 				<li><a href="#">About</a></li>
-				<li role="separator" class="divider"></li>
+				<li role="separator" class="nav-divider"></li>
 				<li><a href="#">Portfolio</a></li>
-				<li role="separator" class="divider"></li>
+				<li role="separator" class="nav-divider"></li>
 				<li><a href="#">Contact</a></li>
 			  </ul>
 			</div><!-- /.navbar-collapse -->
@@ -68,19 +68,18 @@
 				<div class="col-md-4 col-xs-12 text-center">
 					<div class="jumbotron">
 						<img id="me" src="images/me.jpg" class="img-responsive center-block" alt="Me">
-						
 						<div class="container">
 							<div class="row">
 								<div class="col-xs-12 text-center open_sans">
 									<p id="name">Cian Mackle</p>
 									<p>Front-End Web Developer</p>
 								</div>
-							</div>
+							</div><!-- /row -->
 							<div class="row">
 								<div class="col-xs-12 text-center open_sans">
 									<p><span class="glyphicon glyphicon-map-marker"></span> Victoria, BC</p>
 								</div>
-							</div>
+							</div><!-- /row -->
 							<div class="row">
 								<div class="col-xs-4">
 									<a href="mailto:cian@cianmackle.com">
@@ -97,18 +96,24 @@
 										<img src="images/github.svg" class="img-responsive" alt="Github">
 									</a>
 								</div>
-							</div>
-						</div>
+							</div><!-- /row -->
+						</div><!--/container -->
 					</div><!-- /jumbotron -->
 				</div><!-- /col -->
 				
 				<!-- About Me ========== -->
 				<div class="col-md-8 col-xs-12">
 					<div class="jumbotron">
-						<p class="open_sans">
-							Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia?
-							De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
-						</p>
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<p class="open_sans text-justify">
+										Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia?
+										De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+									</p>
+								</div>
+							</div>
+						</div>
 					</div><!-- /jumbotron -->
 				</div><!-- /col -->
 			</div><!-- /row -->
@@ -122,23 +127,31 @@
 			
 			<div class="row text-center">
 				<!-- CV / Resume ========== -->
-				<div class="col-xs-6 open_sans">
+				<div class="col-xs-6">
 					<a href="#">
-						<img src="images/cv.svg" class="img-responsive" alt="Curriculum Vitae Link">
-						<label>Curriculum Vitae</label>
+						<div class="thumbnail">
+							<img src="images/cv.svg" class="img-responsive" alt="Curriculum Vitae Link">
+							<div class="caption">
+								<label>Curriculum Vitae</label>
+							</div>
+						</div>
 					</a>
 				</div><!-- /col -->
 				<div class="col-xs-6">
 					<a href="#">
-						<img src="images/cv.svg" class="img-responsive" alt="Resume Link">
-						<label>R&#233;sum&#233;</label>
+						<div class="thumbnail">
+							<img src="images/cv.svg" class="img-responsive" alt="Resume Link">
+							<div class="caption">
+								<label>R&#233;sum&#233;</label>
+							</div>
+						</div>
 					</a>
 				</div><!-- /col -->
 			</div><!-- /row -->	
 			
 			<div class="row">
 				<div class="col-xs-12">
-					<p class="open_sans">
+					<p class="open_sans text-center">
 						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia?
 						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
 					</p>
@@ -148,48 +161,53 @@
 			<!-- Strong skills ========== -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center open_sans">Strong</h3>
+					<h3 class="text-center open_sans"><u>Strong</u></h3>
 				</div><!-- /col -->
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/strong/html5.svg" class="img-responsive" alt="HTML5">
+						<img src="images/strong/html5.png" class="img-responsive" alt="HTML5">
 					</div>
 				</div>
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/strong/css3.svg" class="img-responsive" alt="CSS3">
+						<img src="images/strong/css3.png" class="img-responsive" alt="CSS3">
 					</div>
 				</div>
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/strong/javascript.svg" class="img-responsive" alt="Javascript">
+						<img src="images/strong/javascript.png" class="img-responsive" alt="Javascript">
 					</div>
 				</div><!-- /col -->
 				
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/strong/jquery.svg" class="img-responsive" alt="jQuery">
+						<img src="images/strong/jquery.png" class="img-responsive" alt="jQuery">
 					</div>
 				</div><!-- /col -->
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/strong/git.svg" class="img-responsive" alt="Git">
+						<img src="images/strong/bootstrap.png" class="img-responsive" alt="Bootstrap">
 					</div>
 				</div><!-- /col -->
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/strong/german.svg" class="img-responsive" alt="German">
+						<img src="images/strong/git.png" class="img-responsive" alt="Git">
 					</div>
 				</div><!-- /col -->
-					
+				
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/strong/spanish.svg" class="img-responsive" alt="Spanish">
+						<img src="images/strong/german.png" class="img-responsive" alt="German">
+					</div>
+				</div><!-- /col -->
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/strong/spanish.png" class="img-responsive" alt="Spanish">
 					</div>
 				</div>
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/strong/ukulele.svg" class="img-responsive" alt="Ukulele">
+						<img src="images/strong/ukulele.png" class="img-responsive" alt="Ukulele">
 					</div>
 				</div><!-- /col -->
 			</div><!-- /row (Strong skills) -->
@@ -197,22 +215,22 @@
 			<!-- Improving ========== -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center open_sans">Improving</h3>	
+					<h3 class="text-center open_sans"><u>Improving</u></h3>	
 				</div><!-- /col -->
 				
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/improving/angular.svg" class="img-responsive" alt="Angular.js">
+						<img src="images/improving/angular.png" class="img-responsive" alt="Angular.js">
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="thumbnail" style="height:100%; ">
+						<img src="images/improving/sass.png" class="img-responsive" alt="SASS">
 					</div>
 				</div>
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/improving/sass.svg" class="img-responsive" alt="SASS">
-					</div>
-				</div>
-				<div class="col-xs-4">
-					<div class="thumbnail">
-						<img src="images/improving/android.svg" class="img-responsive" alt="Android">
+						<img src="images/improving/android.png" class="img-responsive" alt="Android">
 					</div>
 				</div><!-- /col -->
 				<div class="col-xs-4">
@@ -222,41 +240,41 @@
 				</div>
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/improving/php.svg" class="img-responsive" alt="PHP">
+						<img src="images/improving/php.png" class="img-responsive" alt="PHP">
 					</div>
 				</div>
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/improving/mysql.svg" class="img-responsive" alt="MySQL">
+						<img src="images/improving/mysql.png" class="img-responsive" alt="MySQL">
 					</div>
 				</div><!-- /col -->
 			</div><!-- /row (Improving) -->
 			
-			<!-- Skills I would like to learn in the future ========== -->
+			<!-- Future ========== -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center open_sans">Future</h3>
+					<h3 class="text-center open_sans"><u>Future</u></h3>
 				</div><!-- /col -->
-				<div class="col-xs-4">
+				<div class="col-xs-offset-2 col-xs-4">
 					<div class="thumbnail">
-						<img src="images/future/rails.svg" class="img-responsive" alt="Rails">
+						<img src="images/future/rails.png" class="img-responsive" alt="Rails">
 					</div>
 				</div>
 				<div class="col-xs-4">
 					<div class="thumbnail">
-						<img src="images/future/ios.svg" class="img-responsive" alt="iOS">
+						<img src="images/future/ios.png" class="img-responsive" alt="iOS">
 					</div>
 				</div><!-- /col -->
 			</div><!-- /row -->
-			
-			<!-- Side-Project Technologies -->
+
+			<!-- Side-Projects -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center open_sans">Side Projects</h3>
+					<h3 class="text-center open_sans"><u>Side Projects</u></h3>
 				</div><!-- /col -->
-				<div class="col-xs-4">
+				<div class="col-xs-offset-4 col-xs-4">
 					<div class="thumbnail">
-						<img src="images/side_projects/raspberry_pi.svg" class="img-responsive" alt="Raspberry Pi">
+						<img src="images/side_projects/raspberry_pi.png" class="img-responsive" alt="Raspberry Pi">
 					</div>
 				</div><!-- /col -->
 			</div><!-- /row -->
