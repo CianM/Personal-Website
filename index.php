@@ -80,20 +80,20 @@
 									<p><span class="glyphicon glyphicon-map-marker"></span> Victoria, BC</p>
 								</div>
 							</div><!-- /row -->
-							<div class="row">
+							<div class="row text-center">
 								<div class="col-xs-4">
 									<a href="mailto:cian@cianmackle.com">
-										<img id="gmail" src="images/gmail.svg" class="img-responsive" alt="Email">
+										<img id="gmail" src="images/gmail.png" class="img-responsive" alt="Email">
 									</a>
 								</div>
 								<div class="col-xs-4">
-									<a href="ie.linkedin.com/in/CianMackle">
+									<a href="https://ie.linkedin.com/in/CianMackle">
 										<img src="images/linkedin.png" class="img-responsive" alt="LinkedIn">
 									</a>
 								</div>
 								<div class="col-xs-4">
 									<a href="https://github.com/CianM">
-										<img src="images/github.svg" class="img-responsive" alt="Github">
+										<img src="images/github.png" class="img-responsive" alt="Github">
 									</a>
 								</div>
 							</div><!-- /row -->
