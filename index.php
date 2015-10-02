@@ -44,7 +44,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			  </button>
-			  <a class="navbar-brand" href="index.php">Cian Mackle</a>
+			  <a class="navbar-brand lobster" href="index.php">Cian Mackle</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			  <ul class="nav navbar-nav navbar-right text-center">
@@ -326,7 +326,9 @@
 						</div>
 						
 						<!-- reCAPTCHA ========== -->
-						<div class="g-recaptcha pull-right" data-sitekey="6Lfw9g0TAAAAAMIDJc2LRkK0DY5WZPsPHPUuYrQX"></div> 
+						<div class="form-group">
+							<div class="g-recaptcha pull-right" data-sitekey="6Lfw9g0TAAAAAMIDJc2LRkK0DY5WZPsPHPUuYrQX"></div> 
+						</div>
 						
 						<div class="form-group">
 							<button type="submit" class="btn btn-primary pull-right" name="submit">Submit</button>
@@ -338,7 +340,18 @@
 		</section><!-- /contact -->
 		
 		
-		<footer>
+		<footer class="container-fluid">
+			<nav class="row text-center">
+				<div class="col-xs-4">
+					<a href="#">About</a>
+				</div>
+				<div class="col-xs-4">
+					<a href="#">Portfolio</a>
+				</div>
+				<div class="col-xs-4">
+					<a href="#">Contact</a>
+				</div>
+			</nav>
 		</footer>
 		
 		
