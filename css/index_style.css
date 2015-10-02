@@ -2,6 +2,27 @@
 	margin-bottom: 0;
 }
 
+h2 {
+	font-family: "Lobster", cursive;
+}
+
+#brand_name {
+	color: #DADADA;
+}
+
+#gmail {
+	margin-top: 10px;
+}
+
+/* Fonts */
+.lobster{ 
+	font-family: "Lobster", cursive;
+	font-size: 2em;
+}
+
+.open_sans {
+	font-family: "Open Sans", sans-serif;
+}
 
 header{
 	padding-top: 20px;
@@ -17,6 +38,7 @@ header{
 
 #name{
 	font-weight: bold;
+	font-size: 2em;
 }
 
 #portfolio {

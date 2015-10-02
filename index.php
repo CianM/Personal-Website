@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Cian Mackle - Web Developer</title>
+		<title>Cian Mackle | Web Developer</title>
 		<!-- <meta name="description" content="">
 		<meta name="keywords" content="">
 		<link rel="icon" href="" type="image/png"> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/index_style.css">
 	</head>
 	<body>
@@ -44,16 +46,18 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			  </button>
-			  <a class="navbar-brand lobster" href="index.php">Cian Mackle</a>
+			  <a id="brand_name" class="navbar-brand lobster" href="index.php">Cian Mackle</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			  <ul class="nav navbar-nav navbar-right text-center">
+			  <ul class="nav navbar-nav navbar-right text-center open_sans">
 				<li><a href="#">About</a></li>
+				<li role="separator" class="divider"></li>
 				<li><a href="#">Portfolio</a></li>
+				<li role="separator" class="divider"></li>
 				<li><a href="#">Contact</a></li>
 			  </ul>
 			</div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->		  
+		  </div><!-- /.container -->		  
 		</nav>
 	
 	
@@ -64,38 +68,51 @@
 				<div class="col-md-4 col-xs-12 text-center">
 					<div class="jumbotron">
 						<img id="me" src="images/me.jpg" class="img-responsive center-block" alt="Me">
-						<p id="name">Cian<br>Mackle</p>
-						<div class="row">
-							<div class="col-xs-4">
-								<a href="mailto:cian@cianmackle.com">
-									<img src="images/gmail.svg" class="img-responsive contact_images" alt="Email">
-								</a>
+						
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 text-center open_sans">
+									<p id="name">Cian Mackle</p>
+									<p>Front-End Web Developer</p>
+								</div>
 							</div>
-							<div class="col-xs-4">
-								<a href="#">
-									<img src="images/linkedin.png" class="img-responsive contact_images" alt="LinkedIn">
-								</a>
+							<div class="row">
+								<div class="col-xs-12 text-center open_sans">
+									<p><span class="glyphicon glyphicon-map-marker"></span> Victoria, BC</p>
+								</div>
 							</div>
-							<div class="col-xs-4">
-								<a href="#">
-									<img src="images/github.svg" class="img-responsive contact_images" alt="Github">
-								</a>
+							<div class="row">
+								<div class="col-xs-4">
+									<a href="mailto:cian@cianmackle.com">
+										<img id="gmail" src="images/gmail.svg" class="img-responsive" alt="Email">
+									</a>
+								</div>
+								<div class="col-xs-4">
+									<a href="ie.linkedin.com/in/CianMackle">
+										<img src="images/linkedin.png" class="img-responsive" alt="LinkedIn">
+									</a>
+								</div>
+								<div class="col-xs-4">
+									<a href="https://github.com/CianM">
+										<img src="images/github.svg" class="img-responsive" alt="Github">
+									</a>
+								</div>
 							</div>
-						</div><!-- /row -->  
-					</div>
+						</div>
+					</div><!-- /jumbotron -->
 				</div><!-- /col -->
 				
 				<!-- About Me ========== -->
 				<div class="col-md-8 col-xs-12">
 					<div class="jumbotron">
-						<p>
+						<p class="open_sans">
 							Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia?
 							De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
 						</p>
 					</div><!-- /jumbotron -->
 				</div><!-- /col -->
 			</div><!-- /row -->
-		</header>
+		</header><!-- /container -->
 		
 		<!-- About ========== -->
 		<section class="container">
@@ -105,12 +122,12 @@
 			
 			<div class="row text-center">
 				<!-- CV / Resume ========== -->
-				<div class="col-xs-6">
+				<div class="col-xs-6 open_sans">
 					<a href="#">
 						<img src="images/cv.svg" class="img-responsive" alt="Curriculum Vitae Link">
 						<label>Curriculum Vitae</label>
 					</a>
-				</div><!-- /cv -->
+				</div><!-- /col -->
 				<div class="col-xs-6">
 					<a href="#">
 						<img src="images/cv.svg" class="img-responsive" alt="Resume Link">
@@ -121,7 +138,7 @@
 			
 			<div class="row">
 				<div class="col-xs-12">
-					<p>
+					<p class="open_sans">
 						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia?
 						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
 					</p>
@@ -131,132 +148,119 @@
 			<!-- Strong skills ========== -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center">Strong</h3>
+					<h3 class="text-center open_sans">Strong</h3>
 				</div><!-- /col -->
-				<div class="row">
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/strong/html5.svg" alt="HTML5">
-						</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/strong/html5.svg" class="img-responsive" alt="HTML5">
 					</div>
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/strong/css3.svg" alt="CSS3">
-						</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/strong/css3.svg" class="img-responsive" alt="CSS3">
 					</div>
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/strong/javascript.svg" alt="Javascript">
-						</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/strong/javascript.svg" class="img-responsive" alt="Javascript">
 					</div>
-				</div><!-- /row (Thumbnails) -->
-				<div class="row">
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/strong/jquery.svg" alt="jQuery">
-						</div>
-					</div>
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/strong/git.svg" alt="Git">
-						</div>
-					</div>
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/strong/german.svg" alt="German">
-						</div>
-					</div>
-				</div><!-- /row (Thumbnails) -->
-				<div class="row">
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/strong/spanish.svg" alt="Spanish">
-						</div>
-					</div>
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/strong/ukulele.svg" alt="Ukulele">
-						</div>
-					</div>
-				</div><!-- /row (Thumbnails) -->
-			</div><!-- /row (Strong skills) -->
-			
-			<!-- Skills that I'm improving on ========== -->
-			<div class="row">
-				<div class="col-xs-12">
-					<h3 class="text-center">Improving</h3>	
 				</div><!-- /col -->
 				
-				<div class="row">
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/improving/angular.svg" alt="Angular.js">
-						</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/strong/jquery.svg" class="img-responsive" alt="jQuery">
 					</div>
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/improving/sass.svg" alt="SASS">
-						</div>
+				</div><!-- /col -->
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/strong/git.svg" class="img-responsive" alt="Git">
 					</div>
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/improving/android.svg" alt="Android">
-						</div>
+				</div><!-- /col -->
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/strong/german.svg" class="img-responsive" alt="German">
 					</div>
-				</div><!-- /row (Thumbnails) -->
-				<div class="row">
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/improving/gimp.png" alt="GIMP">
-						</div>
+				</div><!-- /col -->
+					
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/strong/spanish.svg" class="img-responsive" alt="Spanish">
 					</div>
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/improving/php.svg" alt="PHP">
-						</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/strong/ukulele.svg" class="img-responsive" alt="Ukulele">
 					</div>
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/improving/mysql.svg" alt="MySQL">
-						</div>
+				</div><!-- /col -->
+			</div><!-- /row (Strong skills) -->
+			
+			<!-- Improving ========== -->
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 class="text-center open_sans">Improving</h3>	
+				</div><!-- /col -->
+				
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/improving/angular.svg" class="img-responsive" alt="Angular.js">
 					</div>
-				</div><!-- /row (Thumbnails) -->
+				</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/improving/sass.svg" class="img-responsive" alt="SASS">
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/improving/android.svg" class="img-responsive" alt="Android">
+					</div>
+				</div><!-- /col -->
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/improving/gimp.png" class="img-responsive" alt="GIMP">
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/improving/php.svg" class="img-responsive" alt="PHP">
+					</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/improving/mysql.svg" class="img-responsive" alt="MySQL">
+					</div>
+				</div><!-- /col -->
 			</div><!-- /row (Improving) -->
 			
 			<!-- Skills I would like to learn in the future ========== -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center">Future</h3>
+					<h3 class="text-center open_sans">Future</h3>
 				</div><!-- /col -->
-				
-				<div class="row">
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/future/rails.svg" alt="Rails">
-						</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/future/rails.svg" class="img-responsive" alt="Rails">
 					</div>
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/future/ios.svg" alt="iOS">
-						</div>
+				</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/future/ios.svg" class="img-responsive" alt="iOS">
 					</div>
-				</div><!-- /row (Thumbnails) -->
+				</div><!-- /col -->
 			</div><!-- /row -->
 			
 			<!-- Side-Project Technologies -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center">Side Projects</h3>
+					<h3 class="text-center open_sans">Side Projects</h3>
 				</div><!-- /col -->
-				<div class="row">
-					<div class="col-xs-4">
-						<div class="thumbnail">
-							<img src="images/side_projects/raspberry_pi.svg" alt="Raspberry Pi">
-						</div>
+				<div class="col-xs-4">
+					<div class="thumbnail">
+						<img src="images/side_projects/raspberry_pi.svg" class="img-responsive" alt="Raspberry Pi">
 					</div>
-				</div><!-- /row (Thumbnails) -->
+				</div><!-- /col -->
 			</div><!-- /row -->
-		</section><!-- /about -->
+		</section><!-- /container -->
 		
 		<!-- Portfolio ========== -->
 		<section id="portfolio" class="container-fluid">
@@ -304,7 +308,7 @@
 					?>
 						
 					
-					<form method="POST" action="index.php">
+					<form method="POST" action="index.php" class="open_sans">
 						<div class="form-group">
 							<label for="form_name">Name</label>
 							<input type="text" class="form-control" id="form_name" placeholder="Name" name="name" require>
@@ -341,7 +345,7 @@
 		
 		
 		<footer class="container-fluid">
-			<nav class="row text-center">
+			<nav class="row text-center open_sans">
 				<div class="col-xs-4">
 					<a href="#">About</a>
 				</div>
@@ -351,8 +355,8 @@
 				<div class="col-xs-4">
 					<a href="#">Contact</a>
 				</div>
-			</nav>
-		</footer>
+			</nav><!-- /row -->
+		</footer><!-- /container -->
 		
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
