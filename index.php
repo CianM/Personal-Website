@@ -13,6 +13,25 @@
 	</head>
 	<body>
 		
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h1 class="modal-title text-center" id="myModalLabel">Hi!</h1>
+			  </div>
+			  <div class="modal-body text-center">
+				<p>I'm Cian Mackle and welcome to my developer page.</p>
+				<p>Things are getting up and running now and the site will be online shortly.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
 		
 		<?php
 			// grab recaptcha library
@@ -35,7 +54,6 @@
 				);
 			} 
 		?>
-		
 		
 		<nav class="navbar navbar-default navbar-inverse">
 		  <div class="container-fluid">
@@ -61,7 +79,6 @@
 			</div><!-- /.navbar-collapse -->
 		  </div><!-- /.container -->		  
 		</nav>
-	
 	
 		<!-- Intro ========== -->
 		<header class="container-fluid">
@@ -419,5 +436,12 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<!-- reCAPTCHA ========== -->
 		<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
+		
+		<script type="text/javascript">
+			$(window).load(function(){
+				$('#myModal').modal('show');
+			});
+		</script>
+		
 	</body>
 </html>
