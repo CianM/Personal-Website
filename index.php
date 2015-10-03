@@ -52,6 +52,8 @@
 			  <ul class="nav navbar-nav navbar-right text-center open_sans">
 				<li><a href="#">About</a></li>
 				<li role="separator" class="nav-divider"></li>
+				<li><a href="#">Skills</a></li>
+				<li role="separator" class="nav-divider"></li>
 				<li><a href="#">Portfolio</a></li>
 				<li role="separator" class="nav-divider"></li>
 				<li><a href="#">Contact</a></li>
@@ -108,7 +110,17 @@
 							<div class="row">
 								<div class="col-xs-12">
 									<p class="open_sans text-justify">
-										Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia?
+										Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
+										De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+									</p>
+									<br>
+									<p class="open_sans text-justify">
+										Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
+										De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+									</p>
+									<br>
+									<p class="open_sans text-justify">
+										Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
 										De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
 									</p>
 								</div>
@@ -127,33 +139,44 @@
 			
 			<div class="row text-center">
 				<!-- CV / Resume ========== -->
-				<div class="col-xs-6">
-					<a href="#">
-						<div class="thumbnail">
-							<img src="images/cv.svg" class="img-responsive" alt="Curriculum Vitae Link">
-							<div class="caption">
-								<label>Curriculum Vitae</label>
+				<div class="col-sm-2 col-xs-12">
+					<div class="col-sm-12 col-xs-6">
+						<a href="#">
+							<div class="thumbnail">
+								<img src="images/cv.svg" class="img-responsive" alt="Curriculum Vitae Link">
+								<div class="caption">
+									<label>Curriculum Vitae</label>
+								</div>
 							</div>
-						</div>
-					</a>
-				</div><!-- /col -->
-				<div class="col-xs-6">
-					<a href="#">
-						<div class="thumbnail">
-							<img src="images/cv.svg" class="img-responsive" alt="Resume Link">
-							<div class="caption">
-								<label>R&#233;sum&#233;</label>
+						</a>
+					</div><!-- /col -->
+					<div class="col-sm-12 col-xs-6">
+						<a href="#">
+							<div class="thumbnail">
+								<img src="images/cv.svg" class="img-responsive" alt="Resume Link">
+								<div class="caption">
+									<label>R&#233;sum&#233;</label>
+								</div>
 							</div>
-						</div>
-					</a>
-				</div><!-- /col -->
-			</div><!-- /row -->	
+						</a>
+					</div><!-- /col -->
+				</div><!-- /col --> 
 			
-			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-sm-10 col-xs-12 skills_text">
 					<p class="open_sans text-center">
-						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia?
+						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
 						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+					</p>
+					<br>
+					<p class="open_sans text-center">
+						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
+						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+					</p>
+					<br>
+					<p class="open_sans text-center">
+						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
+						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+					</p>
 					</p>
 				</div><!-- /col -->
 			</div><!-- /row -->
@@ -163,49 +186,49 @@
 				<div class="col-xs-12">
 					<h3 class="text-center open_sans"><u>Strong</u></h3>
 				</div><!-- /col -->
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/strong/html5.png" class="img-responsive" alt="HTML5">
 					</div>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/strong/css3.png" class="img-responsive" alt="CSS3">
 					</div>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/strong/javascript.png" class="img-responsive" alt="Javascript">
 					</div>
 				</div><!-- /col -->
 				
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/strong/jquery.png" class="img-responsive" alt="jQuery">
 					</div>
 				</div><!-- /col -->
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/strong/bootstrap.png" class="img-responsive" alt="Bootstrap">
 					</div>
 				</div><!-- /col -->
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/strong/git.png" class="img-responsive" alt="Git">
 					</div>
 				</div><!-- /col -->
 				
-				<div class="col-xs-4">
+				<div class="col-md-offset-3 col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/strong/german.png" class="img-responsive" alt="German">
 					</div>
 				</div><!-- /col -->
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/strong/spanish.png" class="img-responsive" alt="Spanish">
 					</div>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/strong/ukulele.png" class="img-responsive" alt="Ukulele">
 					</div>
@@ -218,32 +241,32 @@
 					<h3 class="text-center open_sans"><u>Improving</u></h3>	
 				</div><!-- /col -->
 				
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/improving/angular.png" class="img-responsive" alt="Angular.js">
 					</div>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail" style="height:100%; ">
 						<img src="images/improving/sass.png" class="img-responsive" alt="SASS">
 					</div>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/improving/android.png" class="img-responsive" alt="Android">
 					</div>
 				</div><!-- /col -->
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/improving/gimp.png" class="img-responsive" alt="GIMP">
 					</div>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/improving/php.png" class="img-responsive" alt="PHP">
 					</div>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/improving/mysql.png" class="img-responsive" alt="MySQL">
 					</div>
@@ -255,12 +278,12 @@
 				<div class="col-xs-12">
 					<h3 class="text-center open_sans"><u>Future</u></h3>
 				</div><!-- /col -->
-				<div class="col-xs-offset-2 col-xs-4">
+				<div class="col-md-offset-4 col-md-2 col-xs-offset-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/future/rails.png" class="img-responsive" alt="Rails">
 					</div>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/future/ios.png" class="img-responsive" alt="iOS">
 					</div>
@@ -272,7 +295,7 @@
 				<div class="col-xs-12">
 					<h3 class="text-center open_sans"><u>Side Projects</u></h3>
 				</div><!-- /col -->
-				<div class="col-xs-offset-4 col-xs-4">
+				<div class="col-md-offset-5 col-md-2 col-xs-offset-4 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/side_projects/raspberry_pi.png" class="img-responsive" alt="Raspberry Pi">
 					</div>
@@ -289,17 +312,17 @@
 			</div><!-- /row -->
 			
 			<div class="row">
-				<div class="col-xs-12 project">
+				<div class="col-md-6 col-xs-12 project">
 					<a href="#">
 						<img src="images/portfolio/micro_vision.png" id="micro_vision" class="img-responsive" alt="Micro-Vision">
 					</a>
-				</div>
-				<div class="col-xs-12 project">
+				</div><!-- /col -->
+				<div class="col-md-6 col-xs-12 project">
 					<a href="#">
 						<img src="images/portfolio/constructed_languages.png" id="constructed_languages" class="img-responsive" alt="Constructed Languages">
 					</a>
-				</div>
-			</div>
+				</div><!-- /col -->
+			</div><!-- /row -->
 		</section><!-- /portfolio -->
 		
 		<!-- Contact ======== -->
@@ -311,7 +334,7 @@
 			</div><!-- /row -->
 			
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-md-offset-3 col-md-6 col-xs-12">
 				
 					<?php
 						$me = "cian@cianmackle.com";
@@ -369,21 +392,23 @@
 							<button id="form_button" type="submit" class="btn btn-primary pull-right" name="submit">Submit</button>
 						</div>
 					</form>
-					
 				</div><!-- /col -->
 			</div><!-- /row -->
 		</section><!-- /contact -->
 		
 		
 		<footer class="container-fluid">
-			<nav class="row text-center open_sans">
-				<div class="col-xs-4">
+			<nav class="row text-center">
+				<div class="col-xs-3">
 					<a href="#">About</a>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-xs-3">
+					<a href="#">Skills</a>
+				</div>
+				<div class="col-xs-3">
 					<a href="#">Portfolio</a>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-xs-3">
 					<a href="#">Contact</a>
 				</div>
 			</nav><!-- /row -->
