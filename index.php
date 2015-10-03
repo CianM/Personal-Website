@@ -3,8 +3,8 @@
 	<head>
 		<title>Cian Mackle | Front-End Web Developer</title>
 		<!-- <meta name="description" content="">
-		<meta name="keywords" content="">
-		<link rel="icon" href="" type="image/png"> -->
+		<meta name="keywords" content=""> -->
+		<link rel="icon" href="images/favicon.png" type="image/png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -70,11 +70,11 @@
 			  <ul class="nav navbar-nav navbar-right text-center open_sans">
 				<li><a href="#">About</a></li>
 				<li role="separator" class="nav-divider"></li>
-				<li><a href="#">Skills</a></li>
+				<li><a href="#skills">Skills</a></li>
 				<li role="separator" class="nav-divider"></li>
-				<li><a href="#">Portfolio</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
 				<li role="separator" class="nav-divider"></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#contact">Contact</a></li>
 			  </ul>
 			</div><!-- /.navbar-collapse -->
 		  </div><!-- /.container -->		  
@@ -148,8 +148,8 @@
 			</div><!-- /row -->
 		</header><!-- /container -->
 		
-		<!-- About ========== -->
-		<section class="container">
+		<!-- Skills ========== -->
+		<section id="skills" class="container">
 			<div class="row text-center">
 				<h2>Skills</h2>
 			</div>
@@ -343,7 +343,7 @@
 		</section><!-- /portfolio -->
 		
 		<!-- Contact ======== -->
-		<section class="container">
+		<section id="contact" class="container">
 			<div class="row">
 				<div class="col-xs-12 text-center">
 					<h2>Contact</h2>
@@ -420,13 +420,13 @@
 					<a href="#">About</a>
 				</div>
 				<div class="col-xs-3">
-					<a href="#">Skills</a>
+					<a href="#skills">Skills</a>
 				</div>
 				<div class="col-xs-3">
-					<a href="#">Portfolio</a>
+					<a href="#portfolio">Portfolio</a>
 				</div>
 				<div class="col-xs-3">
-					<a href="#">Contact</a>
+					<a href="#contact">Contact</a>
 				</div>
 			</nav><!-- /row -->
 		</footer><!-- /container -->
