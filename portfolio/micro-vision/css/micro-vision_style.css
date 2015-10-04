@@ -1,0 +1,26 @@
+#brand_name {
+	color: #DADADA;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+footer {
+	margin-top: 20px;
+	background-color: #222222;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: "Lobster", cursive;
+	font-size: 1.5em;
+}
+
+/* Fonts */
+.lobster{ 
+	font-family: "Lobster", cursive;
+	font-size: 2em;
+}
+
+.open_sans {
+	font-family: "Open Sans", sans-serif;
+}
