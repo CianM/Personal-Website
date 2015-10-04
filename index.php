@@ -329,13 +329,13 @@
 			</div><!-- /row -->
 			
 			<div class="row">
-				<div class="col-md-6 col-xs-12 project">
-					<a href="#">
+				<div class="col-md-offset-2 col-md-3 col-xs-12 project">
+					<a href="portfolio/micro-vision/index.php">
 						<img src="images/portfolio/micro_vision.png" id="micro_vision" class="img-responsive" alt="Micro-Vision">
 					</a>
 				</div><!-- /col -->
-				<div class="col-md-6 col-xs-12 project">
-					<a href="#">
+				<div class="col-md-offset-2 col-md-3 col-xs-12 project">
+					<a href="portfolio/constructed_languages/index.php">
 						<img src="images/portfolio/constructed_languages.png" id="constructed_languages" class="img-responsive" alt="Constructed Languages">
 					</a>
 				</div><!-- /col -->
