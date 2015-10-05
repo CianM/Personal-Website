@@ -1,0 +1,3 @@
+[05-Oct-2015 10:07:49 America/New_York] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND), expecting ',' or ')' in /home/cianhbue/public_html/index.php on line 360
+[05-Oct-2015 10:07:50 America/New_York] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND), expecting ',' or ')' in /home/cianhbue/public_html/index.php on line 360
+[05-Oct-2015 10:23:48 America/New_York] PHP Fatal error:  Call to undefined function alert() in /home/cianhbue/public_html/index.php on line 363

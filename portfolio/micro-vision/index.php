@@ -22,7 +22,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			  </button>
-			  <a id="brand_name" class="navbar-brand lobster" href="index.php">Cian Mackle</a>
+			  <a id="brand_name" class="navbar-brand lobster" href="../../index.php">Cian Mackle</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			  <ul class="nav navbar-nav navbar-right text-center open_sans">

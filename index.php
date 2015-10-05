@@ -34,6 +34,7 @@
 		
 		
 		<?php
+			
 			// grab recaptcha library
 			require_once "recaptchalib.php";
 			
@@ -64,7 +65,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			  </button>
-			  <a id="brand_name" class="navbar-brand lobster" href="index.php">Cian Mackle</a>
+			  <a id="brand_name" class="navbar-brand lobster" href="#">Cian Mackle</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			  <ul class="nav navbar-nav navbar-right text-center open_sans">
@@ -354,35 +355,42 @@
 				<div class="col-md-offset-3 col-md-6 col-xs-12">
 				
 					<?php
-						$me = "cian@cianmackle.com";
-						$feedbackmail = "contact@cianmackle.com";
+						$mail_to_send_to = "cian@cianmackle.com";
+						$your_feedbackmail = "contact@cianmackle.com";
+						
 
-						if ( isset($_POST['submit'] ))
+						$x = $_REQUEST['submit'];
+						if ( $x == "Submit")
 						{
-								$name = $_POST['name'];
-								$email = $_POST['email'];
-								$subject = $_POST['subject'];
-								$message = $_POST['message'];
+							if($response != null && $response->success) {
+								$name = $_REQUEST['name'];
+								$email = $_REQUEST['email'] ;
+								$subject = $_REQUEST['subject'];								
+								$message = $_REQUEST['message'];
 								
-								$headers = "From: $feedbackmail" . "\r\n" . "Reply-To: $email" . "\r\n";
-								$details = "Name: $name" . "\r\n" . "Email: $email" . "\r\n" . "Subject: $subject" . "\r\n" . "\r\n" . $message;
+								$body = "From: $name\n Email: $email\n Subject: $subject\n $message";
+								$headers = "From: $your_feedbackmail" . "\r\n" . "Reply-To: $email" . "\r\n" ;
 								
-								
-								$a = mail( $me, $subject, $details, $headers );
+								$a = mail( $mail_to_send_to, $subject, $body, $headers );
 								if ($a) 
 								{
 									 print("Message was sent, you can send another one");
 								} else {
 									 print("Message wasn't sent, please check that you have changed emails in the bottom");
 								}
+							}
+							else{
+								print("Are you a robot? Make sure to click the button");
+							}
 						}
+
 					?>
 						
 					
-					<form method="POST" action="index.php" class="open_sans">
+					<form method="POST" action="#" class="open_sans">
 						<div class="form-group">
 							<label for="form_name">Name</label>
-							<input type="text" class="form-control" id="form_name" placeholder="Name" name="name" require>
+							<input type="text" class="form-control" id="form_name" placeholder="Name" name="name" required>
 						</div>
 						
 						<div class="form-group">
@@ -406,7 +414,7 @@
 						</div>
 						
 						<div class="form-group">
-							<button id="form_button" type="submit" class="btn btn-primary pull-right" name="submit">Submit</button>
+							<button id="form_button" type="submit" class="btn btn-primary pull-right" name="submit" value="Submit">Submit</button>
 						</div>
 					</form>
 				</div><!-- /col -->
@@ -437,11 +445,11 @@
 		<!-- reCAPTCHA ========== -->
 		<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
 		
-		<script type="text/javascript">
+		<!--<script type="text/javascript">
 			$(window).load(function(){
 				$('#myModal').modal('show');
 			});
-		</script>
+		</script> -->
 		
 	</body>
 </html>
