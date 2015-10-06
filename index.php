@@ -38,8 +38,9 @@
 			// grab recaptcha library
 			require_once "recaptchalib.php";
 			
-			// your secret key
-			$secret = "6Lfw9g0TAAAAAPE1QXkUCkdogmXP3ZKFvmFo-4-i";
+			$key = include("recaptcha_config.php");
+			// your secret key - hidden on GitHub
+			$secret = $key;
  
 			// empty response
 			$response = null;
@@ -410,7 +411,7 @@
 						
 						<!-- reCAPTCHA ========== -->
 						<div class="form-group">
-							<div class="g-recaptcha pull-right" data-sitekey="6Lfw9g0TAAAAAMIDJc2LRkK0DY5WZPsPHPUuYrQX"></div> 
+							<div class="g-recaptcha pull-right" data-sitekey="6LfoPw4TAAAAAEGayOw9VUMjKCoNxG1r-51S2z0Q"></div> 
 						</div>
 						
 						<div class="form-group">
@@ -445,11 +446,11 @@
 		<!-- reCAPTCHA ========== -->
 		<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
 		
-		<!--<script type="text/javascript">
+		<script type="text/javascript">
 			$(window).load(function(){
 				$('#myModal').modal('show');
 			});
-		</script> -->
+		</script>
 		
 	</body>
 </html>
