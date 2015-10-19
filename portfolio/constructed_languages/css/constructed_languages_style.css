@@ -5,6 +5,13 @@
 .navbar {
 	margin-bottom: 0;
 }
+h1 {
+	font-family: "Lobster", cursive;
+}
+
+header{
+	background-color: lightBlue;
+}
 
 footer {
 	margin-top: 20px;

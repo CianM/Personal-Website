@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<title>Portfolio | Micro-Vision Custom Computers</title>
-		<!-- <meta name="description" content="">
-		<meta name="keywords" content=""> -->
+		<meta name="description" content="An interactive site for viewing and customizing Micro-Vision\'s custom-built systems. ">
+		<meta name="keywords" content="portfolio, Cian Mackle, Micro-Vision, custom, computers">
 		<link rel="icon" href="../../images/favicon.png" type="image/png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -38,7 +38,44 @@
 		  </div><!-- /.container -->		  
 		</nav>
 		
+		<header class="container-fluid text-center">
+			<h1>Micro-Vision Custom Computers</h1>
+		</header>
 		
+		<section class="container">
+			<img class="img-responsive center-block" src="images/placeholder.png">
+			<div class="row">
+				<div class="col-md-offset-2 col-md-8 col-xs-12">
+					<p class="open_sans">
+						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia? 
+						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+						Qui offenderit rapto, terribilem incessu. The voodoo sacerdos suscitat mortuos comedere carnem. Search for solum oculi eorum 
+						defunctis cerebro. Nescio an Undead zombies. Sicut malus movie horror.
+					</p>
+				</div>
+			</div>
+			
+			<img class="img-responsive center-block" src="images/placeholder.png">
+			<div class="row">
+				<div class="col-md-offset-2 col-md-8 col-xs-12">
+					<p class="open_sans">
+						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia? 
+						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+						Qui offenderit rapto, terribilem incessu. The voodoo sacerdos suscitat mortuos comedere carnem. Search for solum oculi eorum 
+						defunctis cerebro. Nescio an Undead zombies. Sicut malus movie horror.
+					</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-offset-2 col-md-8 col-xs-12">
+					<a class="btn btn-primary center-block" href="site/index.php">Site</a>
+				</div>
+			</div>
+		</section>
+		
+		
+
 		
 		<footer class="container-fluid">
 			<nav class="row text-center">
