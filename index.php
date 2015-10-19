@@ -127,20 +127,17 @@
 					<div class="jumbotron">
 						<div class="container">
 							<div class="row">
-								<div class="col-xs-12">
-									<p class="open_sans text-justify">
-										Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
-										De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+								<div class="col-xs-12 open_sans">
+									<p class="text-center">
+										<span id="isitmeyourelookingfor">Hello</span>, my name is Cian and I'm a front-end web developer from Drogheda, Ireland.
 									</p>
 									<br>
-									<p class="open_sans text-justify">
-										Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
-										De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+									<p class="text-center">
+										I build intuitive, responsive sites for users to get things done. 
 									</p>
 									<br>
-									<p class="open_sans text-justify">
-										Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
-										De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+									<p class="text-center">
+										If you have a project in mind or want to collaborate, feel free to get in touch using the <a href="#contact">contact form</a> below.
 									</p>
 								</div>
 							</div>
@@ -157,45 +154,20 @@
 			</div>
 			
 			<div class="row text-center">
-				<!-- CV / Resume ========== -->
-				<div class="col-sm-2 col-xs-12">
-					<div class="col-sm-12 col-xs-6">
-						<a href="#">
-							<div class="thumbnail">
-								<img src="images/cv.svg" class="img-responsive" alt="Curriculum Vitae Link">
-								<div class="caption">
-									<label>Curriculum Vitae</label>
-								</div>
-							</div>
-						</a>
-					</div><!-- /col -->
-					<div class="col-sm-12 col-xs-6">
-						<a href="#">
-							<div class="thumbnail">
-								<img src="images/cv.svg" class="img-responsive" alt="Resume Link">
-								<div class="caption">
-									<label>R&#233;sum&#233;</label>
-								</div>
-							</div>
-						</a>
-					</div><!-- /col -->
-				</div><!-- /col --> 
-			
-				<div class="col-sm-10 col-xs-12 skills_text">
-					<p class="open_sans text-center">
+				<div class="col-xs-12 skills_text open_sans">
+					<p>
 						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
 						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
 					</p>
 					<br>
-					<p class="open_sans text-center">
+					<p>
 						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
 						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
 					</p>
 					<br>
-					<p class="open_sans text-center">
+					<p>
 						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
 						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
-					</p>
 					</p>
 				</div><!-- /col -->
 			</div><!-- /row -->
