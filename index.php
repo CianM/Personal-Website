@@ -294,12 +294,17 @@
 			</div><!-- /row -->
 			
 			<div class="row">
-				<div class="col-md-offset-2 col-md-3 col-xs-12 project">
+				<div class="col-md-offset-2 col-md-2 col-xs-12 project">
+					<a href="portfolio/current_project/index.php">
+						<img src="images/portfolio/frame.png" id="current_project" class="img-responsive" alt="Current Project">
+					</a>
+				</div><!-- /col -->
+				<div class="col-md-offset-1 col-md-2 col-xs-12 project">
 					<a href="portfolio/micro-vision/index.php">
 						<img src="images/portfolio/micro_vision.png" id="micro_vision" class="img-responsive" alt="Micro-Vision">
 					</a>
 				</div><!-- /col -->
-				<div class="col-md-offset-2 col-md-3 col-xs-12 project">
+				<div class="col-md-offset-1 col-md-2 col-xs-12 project">
 					<a href="portfolio/constructed_languages/index.php">
 						<img src="images/portfolio/constructed_languages.png" id="constructed_languages" class="img-responsive" alt="Constructed Languages">
 					</a>
