@@ -13,25 +13,6 @@
 	</head>
 	<body>
 		
-		<!-- Modal -->
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		  <div class="modal-dialog" role="document">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h1 class="modal-title text-center" id="myModalLabel">Hi!</h1>
-			  </div>
-			  <div class="modal-body text-center">
-				<p>I'm Cian Mackle and welcome to my developer page.</p>
-				<p>Things are getting up and running now and the site will be online shortly.</p>
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>
-		
 		
 		<?php
 			
@@ -133,7 +114,7 @@
 									</p>
 									<br>
 									<p class="text-center">
-										I build intuitive, responsive sites for users to get things done. 
+										For me the best feeling is creating something and seeing it being used by others. That's why I build intuitive, responsive sites that get things done. 
 									</p>
 									<br>
 									<p class="text-center">
@@ -175,7 +156,7 @@
 			<!-- Strong skills ========== -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center open_sans"><u>Strong</u></h3>
+					<h3 class="text-center open_sans"><u>I'm strong with...</u></h3>
 				</div><!-- /col -->
 				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
@@ -229,7 +210,7 @@
 			<!-- Improving ========== -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center open_sans"><u>Improving</u></h3>	
+					<h3 class="text-center open_sans"><u>I'm improving my knowledge of...</u></h3>	
 				</div><!-- /col -->
 				
 				<div class="col-md-2 col-xs-4">
@@ -262,14 +243,19 @@
 						<img src="images/improving/mysql.png" class="img-responsive" alt="MySQL">
 					</div>
 				</div><!-- /col -->
+				<div class="col-md-offset-5 col-md-2 col-xs-offset-4 col-xs-4">
+					<div class="thumbnail">
+						<img src="images/improving/gulp.png" class="img-responsive" alt="Gulp">
+					</div>
+				</div>
 			</div><!-- /row (Improving) -->
 			
 			<!-- Future ========== -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center open_sans"><u>Future</u></h3>
+					<h3 class="text-center open_sans"><u>In the future I would like to learn...</u></h3>
 				</div><!-- /col -->
-				<div class="col-md-offset-4 col-md-2 col-xs-offset-2 col-xs-4">
+				<div class="col-md-offset-3 col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/future/rails.png" class="img-responsive" alt="Rails">
 					</div>
@@ -279,12 +265,17 @@
 						<img src="images/future/ios.png" class="img-responsive" alt="iOS">
 					</div>
 				</div><!-- /col -->
+				<div class="col-md-2 col-xs-4">
+					<div class="thumbnail">
+						<img src="images/future/wordpress.png" class="img-responsive" alt="Wordpress">
+					</div>
+				</div>
 			</div><!-- /row -->
 
 			<!-- Side-Projects -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center open_sans"><u>Side Projects</u></h3>
+					<h3 class="text-center open_sans"><u>Side projects I'm working on...</u></h3>
 				</div><!-- /col -->
 				<div class="col-md-offset-5 col-md-2 col-xs-offset-4 col-xs-4">
 					<div class="thumbnail">
@@ -417,12 +408,5 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<!-- reCAPTCHA ========== -->
 		<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
-		
-		<script type="text/javascript">
-			$(window).load(function(){
-				$('#myModal').modal('show');
-			});
-		</script>
-		
 	</body>
 </html>
