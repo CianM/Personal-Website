@@ -13,7 +13,6 @@
 	</head>
 	<body>
 		
-		
 		<?php
 			
 			// grab recaptcha library
@@ -329,11 +328,10 @@
 						
 
 						$x = $_REQUEST['submit'];
-						if ( $x == "Submit")
-						{
+						if ( $x == "Submit") {
 							if($response != null && $response->success) {
 								$name = $_REQUEST['name'];
-								$email = $_REQUEST['email'] ;
+								$email = str_replace("\r\n", '', $_REQUEST['email']);
 								$subject = $_REQUEST['subject'];								
 								$message = $_REQUEST['message'];
 								
@@ -341,22 +339,29 @@
 								$headers = "From: $your_feedbackmail" . "\r\n" . "Reply-To: $email" . "\r\n" ;
 								
 								$a = mail( $mail_to_send_to, $subject, $body, $headers );
-								if ($a) 
-								{
-									 print("Message was sent, you can send another one");
-								} else {
-									 print("Message wasn't sent, please check that you have changed emails in the bottom");
+								if ($a) {
+									echo "<p style='font-family:\"Open Sans\", sans-serif; color: green; font-size: 2em; text-align: center;'>
+											Message Sent
+										</p>";
+								} 
+								else {
+									echo "<p style='font-family:\"Open Sans\", sans-serif; color: red; font-size: 2em; text-align: center;'>
+											There was a problem sending the message.<br>
+											Please try again or email me at <a href='mailto:cian@cianmackle.com'>cian@cianmackle.com</a>
+										</p>";
 								}
 							}
-							else{
-								print("Are you a robot? Make sure to click the button");
+							else {
+								echo "<p style='font-family:\"Open Sans\", sans-serif; color: purple ; font-size: 2em; text-align: center;'>
+										There was a problem with reCaptcha.<br>
+										Make sure to click \"I'm not a robot\" and try again.
+									</p>";
 							}
 						}
-
 					?>
 						
 					
-					<form method="POST" action="#" class="open_sans">
+					<form method="POST" action="#contact" class="open_sans">
 						<div class="form-group">
 							<label for="form_name">Name</label>
 							<input type="text" class="form-control" id="form_name" placeholder="Name" name="name" required>
@@ -408,7 +413,7 @@
 			</nav><!-- /row -->
 		</footer><!-- /container -->
 		
-		
+		<!-- Scripts ========== -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<!-- reCAPTCHA ========== -->

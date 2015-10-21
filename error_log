@@ -1,3 +1,7 @@
 [05-Oct-2015 10:07:49 America/New_York] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND), expecting ',' or ')' in /home/cianhbue/public_html/index.php on line 360
 [05-Oct-2015 10:07:50 America/New_York] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND), expecting ',' or ')' in /home/cianhbue/public_html/index.php on line 360
 [05-Oct-2015 10:23:48 America/New_York] PHP Fatal error:  Call to undefined function alert() in /home/cianhbue/public_html/index.php on line 363
+[05-Oct-2015 13:34:27 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/cianhbue/public_html/index.php on line 361
+[06-Oct-2015 10:15:16 America/New_York] PHP Warning:  include(recaptcha_config.php): failed to open stream: No such file or directory in /home/cianhbue/public_html/index.php on line 43
+[06-Oct-2015 10:15:16 America/New_York] PHP Warning:  include(recaptcha_config.php): failed to open stream: No such file or directory in /home/cianhbue/public_html/index.php on line 43
+[06-Oct-2015 10:15:16 America/New_York] PHP Warning:  include(): Failed opening 'recaptcha_config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/cianhbue/php') in /home/cianhbue/public_html/index.php on line 43
