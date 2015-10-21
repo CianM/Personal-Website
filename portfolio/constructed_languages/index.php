@@ -69,7 +69,7 @@
 			
 			<div class="row">
 				<div class="col-md-offset-2 col-md-8 col-xs-12">
-					<a class="btn btn-primary center-block" href="site/index.php">Site</a>
+					<a class="btn btn-primary center-block" href="site/index.html">Site</a>
 				</div>
 			</div>
 		</section>
