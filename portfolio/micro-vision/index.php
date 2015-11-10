@@ -42,34 +42,75 @@
 			<h1>Micro-Vision Custom Computers</h1>
 		</header>
 		
-		<section class="container">
-			<img class="img-responsive center-block" src="images/placeholder.png">
+		<section class="container">			
 			<div class="row">
 				<div class="col-md-offset-2 col-md-8 col-xs-12">
-					<p class="open_sans">
-						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia? 
-						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
-						Qui offenderit rapto, terribilem incessu. The voodoo sacerdos suscitat mortuos comedere carnem. Search for solum oculi eorum 
-						defunctis cerebro. Nescio an Undead zombies. Sicut malus movie horror.
-					</p>
-				</div>
-			</div>
-			
-			<img class="img-responsive center-block" src="images/placeholder.png">
-			<div class="row">
-				<div class="col-md-offset-2 col-md-8 col-xs-12">
-					<p class="open_sans">
-						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia? 
-						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
-						Qui offenderit rapto, terribilem incessu. The voodoo sacerdos suscitat mortuos comedere carnem. Search for solum oculi eorum 
-						defunctis cerebro. Nescio an Undead zombies. Sicut malus movie horror.
+					<a href="site/index.php">
+						<img class="img-responsive center-block" src="images/site_screenshot.png" alt="Site screenshot">
+					</a>
+					<h2 class="lobster text-center">Background</h2>
+					<p class="text-justify">
+						The goal of this project was to transition Micro-Vision's custom systems PDFs to an interactive web app. 
+						The customer is able to customize their order based on the available options. Using the new site, the price and specifications 
+						are updated automatically, giving a full overview of their choices. 
 					</p>
 				</div>
 			</div>
 			
 			<div class="row">
-				<div class="col-md-offset-2 col-md-8 col-xs-12">
-					<a class="btn btn-primary center-block" href="site/index.php">Site</a>
+				<div class="col-md-offset-2 col-md-8 col-xs-12 features">
+					<img class="img-responsive center-block" src="images/pdf_screenshot.jpg" alt="PDF screenshot">
+					<h2 class="lobster text-center">Features</h2>
+				
+					<img class="img-responsive center-block" src="images/price_selection_screenshot.jpeg" alt="Price and selected options screenshot">
+					<p class="text-center">When the pages open the base build is selected and the included components are highlighted.</p>
+					<hr>
+					
+					<img class="img-responsive center-block" src="images/price_change_screenshot_highlights.jpg" alt="Price change screenshot">
+					<p class="text-center">Changing the components with the radio buttons updates both the price and the spec list.</p>
+					<hr>
+					
+					<img class="img-responsive center-block" src="images/other_options_screenshot.png" alt="Other options screenshot">
+					<p class="text-center">Additional options can be added by selecting the checkboxes and they are then listed below the spec list.</p>
+					<hr>
+					
+					<p class="text-center">Link to download original PDFs for convenience</p>
+					<hr>
+					<p class="text-center">Future features: I plan to add the ability to email/print the current build. 
+						This may be useful if, at a later date, the site adds e-commerce functionality.
+					</p>
+					<hr>
+				</div> <!-- /col -->
+			</div> <!-- /row -->
+			
+			<div class="row">
+				<div class="col-md-offset-2 col-md-8 col-xs-12 text-center">
+					<h2 class="lobster">What I learned</h2>
+					<div class="row">
+						<div class="col-xs-offset-2 col-xs-3">
+							<img class="img-responsive center-block" src="images/bootstrap.png" alt="Bootstrap logo">
+						</div>
+						<div class="col-xs-offset-2 col-xs-3">
+							<img class="img-responsive center-block" src="images/git.png" alt="Git logo">
+						</div>
+					</div>
+					<p>
+						On each new project I try to incorporate the learning of a new technology or technique. 
+						Here I began using the Bootstrap front-end framework to quickly achieve a clean and responsive interface. 
+						At the same time I looked deeper into the code to see how Bootstrap achieves it responsiveness 
+						and I learned more about CSS3 Media Queries. 
+					</p>
+					<p>
+						This was also my first time incorporating Git into my workflow and its usefulness became immediately apparent. 
+						Although some of the more advanced features were not used in this project, I feel that I now have a solid grasp of the basics of 
+						this version control software and will continue to use it.
+					</p>
+				</div> <!-- /col -->
+			</div> <!-- /row -->
+			
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6 col-xs-offset-1 col-xs-10">
+					<a class="btn btn-primary center-block visit_site_button lobster" href="site/index.php">Visit Site</a>
 				</div>
 			</div>
 		</section>
