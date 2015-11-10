@@ -134,28 +134,29 @@
 			</div>
 			
 			<div class="row text-center">
-				<div class="col-xs-12 skills_text open_sans">
+				<div class=" col-md-offset-1 col-md-10 col-xs-12 skills_text open_sans">
 					<p>
-						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
-						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+						Problem solving is fundamental to web development and each new project brings with it its own challenges. 
+						I always strive to find the most efficient solutions to the task at hand.
 					</p>
 					<br>
 					<p>
-						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
-						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+						I am eager to try out the latest technologies and incorporate new tools to improve my workflow, and ultimately the end product.
 					</p>
 					<br>
 					<p>
-						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia?
-						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
+						I have a solid understanding of key programming concepts and a firm grasp of core web technologies. 
+						At the moment I find interactive applications very interesting and a result responsiveness has become a priority in order to 
+						increase usability across devices.
 					</p>
+					<br>
 				</div><!-- /col -->
 			</div><!-- /row -->
 			
 			<!-- Strong skills ========== -->
 			<div class="row">
 				<div class="col-xs-12">
-					<h3 class="text-center open_sans"><u>I'm strong with...</u></h3>
+					<h3 class="text-center open_sans"><u>I frequently use...</u></h3>
 				</div><!-- /col -->
 				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
