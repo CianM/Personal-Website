@@ -170,7 +170,7 @@
 				</div>
 				<div class="col-md-2 col-xs-4">
 					<div class="thumbnail">
-						<img src="images/strong/javascript.png" class="img-responsive" alt="Javascript">
+						<img src="images/strong/javascript.png" class="img-responsive" alt="JavaScript">
 					</div>
 				</div><!-- /col -->
 				

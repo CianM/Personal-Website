@@ -59,7 +59,18 @@
 			
 			<div class="row">
 				<div class="col-md-offset-2 col-md-8 col-xs-12 features">
-					<img class="img-responsive center-block" src="images/pdf_screenshot.jpg" alt="PDF screenshot">
+					<div class="row">
+						<div class="col-xs-6">
+							<img class="img-responsive center-block" src="images/pdf_screenshot.png" alt="PDF screenshot">
+						</div>
+						<div class="col-xs-6">
+							<img class="img-responsive center-block" src="images/converted_screenshot.jpeg" alt="Converted screenshot">
+						</div>
+						<div class="col-xs-12 text-center">
+							<i>Original PDF and converted page</i>
+						</div>
+					</div>
+					
 					<h2 class="lobster text-center">Features</h2>
 				
 					<img class="img-responsive center-block" src="images/price_selection_screenshot.jpeg" alt="Price and selected options screenshot">
@@ -74,7 +85,7 @@
 					<p class="text-center">Additional options can be added by selecting the checkboxes and they are then listed below the spec list.</p>
 					<hr>
 					
-					<p class="text-center">Link to download original PDFs for convenience</p>
+					<p class="text-center">Link to download original PDFs for convenience.</p>
 					<hr>
 					<p class="text-center">Future features: I plan to add the ability to email/print the current build. 
 						This may be useful if, at a later date, the site adds e-commerce functionality.
