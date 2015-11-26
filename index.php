@@ -190,19 +190,14 @@
 					</div>
 				</div><!-- /col -->
 				
-				<div class="col-md-offset-3 col-md-2 col-xs-4">
+				<div class="col-md-offset-3 col-md-2 col-xs-offset-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/strong/german.png" class="img-responsive" alt="German">
 					</div>
 				</div><!-- /col -->
-				<div class="col-md-2 col-xs-4">
+				<div class="col-md-offset-2 col-md-2 col-xs-4">
 					<div class="thumbnail">
 						<img src="images/strong/spanish.png" class="img-responsive" alt="Spanish">
-					</div>
-				</div>
-				<div class="col-md-2 col-xs-4">
-					<div class="thumbnail">
-						<img src="images/strong/ukulele.png" class="img-responsive" alt="Ukulele">
 					</div>
 				</div><!-- /col -->
 			</div><!-- /row (Strong skills) -->
