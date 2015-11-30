@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Portfolio | Current Project</title>
-		<meta name="description" content="At the moment I'm working on...>
+		<meta name="description" content="At the moment I'm working on...">
 		<meta name="keywords" content="portfolio, Cian Mackle, current">
 		<link rel="icon" href="../../images/favicon.png" type="image/png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,35 +43,68 @@
 		</header>
 		
 		<section class="container">
-			<img class="img-responsive center-block" src="images/placeholder.png">
 			<div class="row">
 				<div class="col-md-offset-2 col-md-8 col-xs-12">
-					<p class="open_sans">
-						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia? 
-						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
-						Qui offenderit rapto, terribilem incessu. The voodoo sacerdos suscitat mortuos comedere carnem. Search for solum oculi eorum 
-						defunctis cerebro. Nescio an Undead zombies. Sicut malus movie horror.
+					<img class="img-responsive center-block" src="images/ipa_logo.svg" alt="International Phonetic Alphabet">
+					<h2 class="lobster text-center">Idea</h2>
+					<p class="text-justify">
+						For language learners the <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">International Phonetic Alphabet</a> 
+						can be useful in learning correct pronunciation. I want to build a web application that will make the IPA easier and more 
+						interactive to learn. 
 					</p>
-				</div>
-			</div>
-			
-			<img class="img-responsive center-block" src="images/placeholder.png">
-			<div class="row">
-				<div class="col-md-offset-2 col-md-8 col-xs-12">
-					<p class="open_sans">
-						Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit, morbo vel maleficia? 
-						De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. 
-						Qui offenderit rapto, terribilem incessu. The voodoo sacerdos suscitat mortuos comedere carnem. Search for solum oculi eorum 
-						defunctis cerebro. Nescio an Undead zombies. Sicut malus movie horror.
+					<p class="text-justify">
+						The project is currently in the planning stages and this page will be updated during development.
 					</p>
-				</div>
-			</div>
+				</div><!-- /col -->
+			</div><!-- /row -->
 			
 			<div class="row">
-				<div class="col-md-offset-2 col-md-8 col-xs-12">
-					<a class="btn btn-primary center-block" href="site/index.php">Site</a>
-				</div>
-			</div>
+				<div class="col-md-offset-2 col-md-8 col-xs-12 features">
+					<h2 class="lobster text-center">Features</h2>
+					
+					<div class="row">
+						<div class="col-md-offset-2 col-md-8 col-xs-12">
+							<img id="duolingo" class="img-responsive center-block" src="images/duolingo_screenshot.png" alt="Duolingo screenshot">
+						</div>
+					</div>
+					<p class="text-center">
+						A tree-like progression path similar to language-learning site <a href="https://www.duolingo.com/">Duolingo</a>
+						to keep learners interested
+					</p>
+					<hr>
+					
+					<p class="text-center">User profiles to keep track of progress</p>
+					<hr>
+					
+					<p class="text-center">Games and quizzes to test what has been learned</p>
+					<hr>
+				</div> <!-- /col -->
+			</div> <!-- /row -->
+			
+			<div class="row">
+				<div class="col-md-offset-2 col-md-8 col-xs-12 text-center">
+					<h2 class="lobster">What I will learn</h2>
+					<div class="row">
+						<div class="col-xs-4">
+							<img class="img-responsive center-block" src="images/angular.png" alt="AngularJS logo">
+						</div>
+						<div class="col-xs-4">
+							<img class="img-responsive center-block" src="images/gulp.png" alt="Gulp logo">
+						</div>
+						<div class="col-xs-4">
+							<img class="img-responsive center-block" src="images/mysql.png" alt="MySQL logo">
+						</div>
+					</div>
+					<p>
+						The best way to learn a new technology is by using it, so for this project I will try out the AngularJS framework. 
+						I will also incorporate Gulp, the automated task runner, into the build process. 
+					</p>
+					<p>
+						Having user profiles means there will need to be a database, which will give me a chance to explore more of the backend of 
+						web development and strengthen skills there.
+					</p>
+				</div> <!-- /col -->
+			</div> <!-- /row -->
 		</section>
 		
 		

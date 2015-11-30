@@ -3,7 +3,7 @@
 	<head>
 		<title>Cian Mackle | Front-End Web Developer</title>
 		<meta name="description" content="Hello, my name is Cian and I'm a front-end web developer from Drogheda, Ireland.">
-		<meta name="keywords" content="web developer, front-end, Ireland, Victoria, BC, Canada, German, Spanish> 
+		<meta name="keywords" content="web developer, front-end, Ireland, Victoria, BC, Canada, German, Spanish"> 
 		<link rel="icon" href="images/favicon.png" type="image/png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">

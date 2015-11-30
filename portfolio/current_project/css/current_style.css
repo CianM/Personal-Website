@@ -2,6 +2,10 @@
 	color: #DADADA;
 }
 
+body {
+	background-color: #F8F8F8;
+}
+
 .navbar {
 	margin-bottom: 0;
 }
@@ -14,6 +18,24 @@ header{
 	background-color: lightBlue;
 }
 
+img {
+	height: 75%;
+	width: 75%;
+	padding: 20px 0 20px 0;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+}
+
+.features p {
+	font-weight: bold;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
 footer {
 	margin-top: 20px;
 	background-color: #222222;
@@ -21,6 +43,11 @@ footer {
 	padding-bottom: 20px;
 	font-family: "Lobster", cursive;
 	font-size: 1.5em;
+}
+
+.visit_site_button {
+	margin: 20px 0 20px 0;
+	padding: 10px 0 10px 0;
 }
 
 /* Fonts */
