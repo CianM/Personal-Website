@@ -61,12 +61,12 @@
 			<div class="row">
 				<div class="col-md-offset-2 col-md-8 col-xs-12 features">
 					<h2 class="lobster text-center">Features</h2>
-					<img class="img-responsive center-block" src="images/audio_recording_screenshot.jpg" alt="Audio recording screenshot">
+					<img class="img-responsive center-block" src="images/audio_recording_screenshot.png" alt="Audio recording screenshot">
 					<p class="text-center">Audio recordings of phrases (where available)</p>
 					<hr>
 					<p class="text-center">Embedded YouTube videos</p>
 					<hr>
-					<img id="counter_img" class="img-responsive center-block" src="images/visit_counter_screenshot.jpg" alt="Visit counter screenshot">
+					<img id="counter_img" class="img-responsive center-block" src="images/visit_counter_screenshot.png" alt="Visit counter screenshot">
 					<p class="text-center">Visit counter</p>
 					<hr>
 					<img class="img-responsive center-block" src="images/stylesheet_screenshot.png" alt="Alternate style sheet screenshot">
