@@ -124,10 +124,14 @@
 					<a class="btn btn-primary center-block visit_site_button lobster" href="site/index.php">Visit Site</a>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6 col-xs-offset-1 col-xs-10">
+					<a class="btn btn-info center-block visit_site_button lobster" href="https://github.com/CianM/Micro-Vision-Custom-Systems">
+						View code on GitHub
+					</a>
+				</div>
+			</div>
 		</section>
-		
-		
-
 		
 		<footer class="container-fluid">
 			<nav class="row text-center">
