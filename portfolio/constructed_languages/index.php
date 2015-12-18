@@ -107,7 +107,7 @@
 			
 			<div class="row">
 				<div class="col-md-offset-3 col-md-6 col-xs-offset-1 col-xs-10">
-					<a class="btn btn-primary center-block visit_site_button lobster" href="site/index.php">Visit Site</a>
+					<a class="btn btn-primary center-block visit_site_button lobster" href="site/index.html">Visit Site</a>
 				</div>
 			</div>
 		</section>
