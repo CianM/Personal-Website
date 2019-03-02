@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans");
+
+:root {
+    --color-alto: #DADADA;
+    --color-black: #000000;
+    --color-mine-shaft: #222222;
+    --color-regent-st-blue: #ADD8E6;
+
+    --font-family-main: "Open Sans", sans-serif;
+    --font-family-title: "Lobster", cursive;
+}
+
+body {
+    font-family: var(--font-family-main) !important;
+}
